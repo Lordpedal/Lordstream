@@ -1,0 +1,9 @@
+version: "2"
+services:
+  iptv:
+    image: lordpedal/lordstream
+    container_name: ACEStream
+    environment:
+      - TZ=Europe/Madrid
+    network_mode: host
+    restart: always
